@@ -16,13 +16,13 @@ const Navbar = async () => {
           <div className="border-b border-gray-200">
             <div className="flex h-16 items-center">
               <MobileNav />
-              <div className="ml-4 flex lg:ml-0">
+              <div className="mx-1 flex lg:ml-8">
                 <Link href="/">
                   <Icons.logo className="h-10 w-10" />
                 </Link>
               </div>
 
-              <div className="hidden z-50 lg:ml-8 lg:block lg:self-stretch">
+              <div className="hidden z-50 lg:ml-4 lg:block lg:self-stretch">
                 <NavItems />
               </div>
 
